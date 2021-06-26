@@ -116,9 +116,14 @@ The following examples show how the program would be run:
       
  ### Output
 
-1. For Pre-processing task (option P):
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+1. Suppose the normalised data looks like this:
+![GitHub Logo](/logo.png)
+
+The output for option P looks like:
+
+2. The accuracies for all the algorithms are as follows:
+   -    KNearestNeighbour: 
+
 
  
  ### To Do
