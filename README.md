@@ -1,4 +1,4 @@
-# A simple machine learning model on Breast-Cancer data
+# Classification of Breast-Cancer data
 
 ## Table of Content
 
