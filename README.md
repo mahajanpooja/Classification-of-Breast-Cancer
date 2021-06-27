@@ -9,10 +9,7 @@
 * Technical Aspect
 * Execution
 * To Do
-* Technologies Used
 * Team
-* License
-* Credits
 
 ## Demo
 
@@ -121,8 +118,48 @@ The following examples show how the program would be run:
 
 The output for option P looks like:
 
+```
+0.1343,0.4333,0.5432,0.8589,0.3737,0.9485,0.4834,0.9456,0.4329,0 
+0.1345,0.4432,0.4567,0.4323,0.1111,0.3456,0.3213,0.8985,0.3456,1 
+0.4948,0.4798,0.2543,0.1876,0.9846,0.3345,0.4567,0.4983,0.2845,0
+ 
+```
+
 2. The accuracies for all the algorithms are as follows:
-   -    KNearestNeighbour: 
+    
+    ```
+           run MyClassifier breast-cancer-wisconsin-normalised.csv NN param_NN.csv
+           0.9671
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv LR
+           0.9642
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv NB
+           0.9585
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv DT
+           0.9356
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv BAG param_BAG.csv
+           0.9585
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv ADA param_ADA.csv
+           0.9556
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv GB param_GB.csv
+           0.9614
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv RF
+           30
+           4
+           0.9675
+           0.9600
+
+           run MyClassifier breast-cancer-wisconsin-normalised.csv SVM
+           1
+           0.001
+           0.9657
+           0.9714
 
 
  
@@ -131,5 +168,6 @@ The output for option P looks like:
  1. Deploy the code
  2. Add diagrams for intuitive visualization
  
- 
+### Team
+Pooja Mahajan
  
