@@ -160,8 +160,8 @@ The output for option P looks like:
            0.001
            0.9657
            0.9714
-
-
+ 
+ To summarize, SVM is the best model to perform classification for the given dataset as it has the highest accuracy of 97%.
  
  ### To Do
  
